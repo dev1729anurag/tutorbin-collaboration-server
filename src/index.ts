@@ -25,10 +25,10 @@ app.get("/", (req, res) => {
 
 const server = http.createServer(app);
 
-server.listen(port, () => {
-  serverDebug(`listening on port: ${port}`);
+server.listen(3002, () => {
+  serverDebug(`listening on port: ${3002}`);
 });
-
+// linux is much more productive for me than windows, windows is a fucked up os for software development
 try {
   const io = new SocketIO(server, {
     transports: ["websocket", "polling"],
