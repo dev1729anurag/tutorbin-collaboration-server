@@ -23,6 +23,7 @@
   "main": "dist/index.js",
   "name": "excalidraw-portal",
   "prettier": "@excalidraw/prettier-config",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "fix:code": "yarn test:code --fix",
