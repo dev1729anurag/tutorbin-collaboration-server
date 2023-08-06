@@ -25,7 +25,7 @@
   "prettier": "@excalidraw/prettier-config",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "pnpm i &&tsc",
     "fix:code": "yarn test:code --fix",
     "fix:other": "yarn prettier --write",
     "fix": "yarn fix:other && yarn fix:code",
